@@ -1,0 +1,23 @@
+Package: DEPrep
+Title: Differential Analysis Data Preperation
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Louise",
+           family = "Whiteside",
+           role = c("aut", "cre"),
+           email = "lewhiteside@gmail.com",
+           comment = c(ORCID = "https://orcid.org/0000-0003-4241-8643"))
+Description: Contains a function that takes a datframe of gene counts and prepares it for differential expression analysis.
+Imports: dplyr
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10),
+    rmarkdown (>= 2.9)
+Suggests: 
+    knitr
+VignetteBuilder: knitr
+
